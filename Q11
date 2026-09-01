@@ -1,0 +1,3 @@
+ALTER TABLE emp
+ADD COLUMN phone VARCHAR(10)
+CHECK (phone REGEXP'^[0-9]{10}$');
