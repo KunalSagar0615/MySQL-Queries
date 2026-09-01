@@ -1,0 +1,4 @@
+ALTER TABLE emp
+ADD CONSTRAINT fk_dept
+FOREIGN KEY(dept_no)
+REFERENCES dept(id);
