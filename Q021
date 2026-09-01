@@ -1,0 +1,3 @@
+ATER TABLE emp
+DROP COLUMN dob,
+DROP COLUMN bonus;
