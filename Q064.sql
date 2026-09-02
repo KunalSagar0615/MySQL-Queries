@@ -1,0 +1,3 @@
+SELECT * FROM emp
+ORDER BY sal
+LIMIT 1;
