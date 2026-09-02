@@ -1,0 +1,3 @@
+SELECT * FROM emp WHERE sal = (SELECT MAX(sal) FROM emp WHERE sal < (SELECT MAX(sal) FROM emp));
+
+SELECT * FROM emp ORDER BY sal DESC LIMIT 1 OFFSET 1; 
