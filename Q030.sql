@@ -1,0 +1,1 @@
+SELECT * FROM emp WHERE sal < 1500;
