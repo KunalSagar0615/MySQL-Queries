@@ -1,0 +1,5 @@
+SELECT * FROM emp WHERE job != "MANAGER";
+
+SELECT * FROM emp WHERE job <> "MANAGER";
+
+SELECT * FROM emp WHERE NOT job = "MANAGER";
