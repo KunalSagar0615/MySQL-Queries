@@ -1,0 +1,3 @@
+CREATE TABLE emp(
+  email VARCHAR(20) UNIQUE
+  );
