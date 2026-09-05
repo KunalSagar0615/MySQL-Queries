@@ -1,0 +1,3 @@
+ALTER TABLE emp ADD FOREIGN KEY(empno) REFERENCES dept(id);
+
+ALTER TABLE emp ADD CONSTRAINT fk_dept FOREIGN KEY(empno) REFERENCES dept(id); 
