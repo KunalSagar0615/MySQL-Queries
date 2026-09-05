@@ -1,5 +1,5 @@
 ALTER TABLE dept
 RENAME TO department;
 
-//wethout alter
+//without alter
 RENAME TABLE department TO dept;
