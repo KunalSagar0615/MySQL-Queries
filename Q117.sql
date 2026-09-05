@@ -1,0 +1,1 @@
+SELECT job FROM emp GROUP BY job HAVING AVG(sal) > 1500;
