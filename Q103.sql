@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM emp WHERE sal > 2000;
