@@ -1,0 +1,3 @@
+CREATE TABLE emp(
+  ename VARCHAR(50) NOT NULL
+  );
