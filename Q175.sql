@@ -1,0 +1,1 @@
+SELECT * FROM books ORDER BY price LIMIT 1 OFFSET 1;
