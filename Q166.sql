@@ -1,0 +1,1 @@
+SELECT e.ename, e.sal, s.grade FROM emp e JOIN salgrade s ON e.sal BETWEEN s.losal AND s.hisal WHERE e.sal = ( SELECT MIN(e2.sal) FROM emp e2 JOIN salgrade s2 ON e2.sal BETWEEN s2.losal AND s2.hisal WHERE s2.grade = s.grade);
