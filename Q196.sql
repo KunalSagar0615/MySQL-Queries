@@ -1,0 +1,1 @@
+SELECT empno, ename, sal FROM emp WHERE sal > (SELECT DISTINCT sal FROM emp ORDER BY sal DESC LIMIT 1 OFFSET 1);
