@@ -1,0 +1,1 @@
+SELECT * FROM books WHERE price BETWEEN 300 AND 600;
